@@ -5,6 +5,7 @@ import Button from '../Components/Button'
 
 const About = () => {
     const [hasCopied, setHasCopied] = useState(false);
+    const [hasCopiedNumber, setHasCopiedNumber] = useState(false);
 
     const handleCopy = () => {
         navigator.clipboard.writeText('sumantashoo138@gmail.com');
@@ -12,6 +13,14 @@ const About = () => {
 
         setTimeout(() => {
             setHasCopied(false);
+        }, 2000);
+    };
+    const handleCopyNumber = () => {
+        navigator.clipboard.writeText('+91-8658322588');
+        setHasCopiedNumber(true);
+
+        setTimeout(() => {
+            setHasCopiedNumber(false);
         }, 2000);
     };
     return (
@@ -61,7 +70,10 @@ const About = () => {
                                 <br />
                                 <p className="grid-headtext">I work across most time zone.</p>
                                 <p className="grid-subtext">Based in India, I am open to onsite, hybrid, and remote work, as well as relocation opportunities.</p>
-                                <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+                                <a href="#contact" className="w-fit">
+                                    <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+                                </a>
+                                {/* <Button name="Contact Me" isBeam containerClass="w-full mt-10" /> */}
                             </div>
                         </div>
                     </div>
@@ -92,7 +104,14 @@ const About = () => {
                             <div className="copy-container" onClick={handleCopy}>
                                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
                                 <p className="lg:text-xl md:text-xl font-medium text-gray_gradient text-white">sumantasahoo138@gmail.com</p>
+
                             </div>
+                            <div className="copy-container" onClick={handleCopyNumber}>
+                                <img src={hasCopiedNumber ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
+                                <p className="lg:text-xl md:text-xl font-medium text-gray_gradient text-white">+91-8658322588</p>
+
+                            </div>
+
                         </div>
                     </div>
                 </div>

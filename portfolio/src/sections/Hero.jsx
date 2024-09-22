@@ -71,8 +71,8 @@ const Hero = () => {
                 </Canvas>
             </div> */}
             <div className="realtive top-7 left-0 right-0 w-full z-10 c-space">
-                <a href="#about" className="w-fit">
-                    <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
+                <a href="https://drive.google.com/file/d/1p2vtqTM8JEzirUywXquuWG1vTVJ9_cMP/view" className="w-fit" target='blank'>
+                    <Button name="View Resume" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
                 </a>
             </div>
             <div className="hero">
