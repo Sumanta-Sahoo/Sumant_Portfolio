@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion'
 
-import { navLinks } from '../constants/index.js';
+import { navLinks } from '../Constants/index.js';
 
 const NavItems = ({ onClick = () => { } }) => (
     <ul className="nav-ul">
