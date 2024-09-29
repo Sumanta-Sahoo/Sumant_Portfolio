@@ -71,7 +71,7 @@ const Hero = () => {
                 </Canvas>
             </div> */}
             <div className="realtive top-7 left-0 right-0 w-full z-10 c-space">
-                <a href="https://drive.google.com/file/d/1p2vtqTM8JEzirUywXquuWG1vTVJ9_cMP/view" className="w-fit" target='blank'>
+                <a href="https://drive.google.com/file/d/1uOd9E4lSVYEmu6VoGdgNv6Z_voDtNWL8/view" className="w-fit" target='blank'>
                     <Button name="View Resume" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
                 </a>
             </div>
