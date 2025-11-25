@@ -109,7 +109,7 @@ export const myProjects = [
             },
         ],
     },
-    {
+    /*{
         title: 'NextBuy - Ecommerce Platform',
         desc: 'NextBuy is a dynamic eCommerce platform that transforms the online shopping experience. Offering seamless navigation and personalized recommendations, it supports millions of customers globally, ensuring every purchase is quick, secure, and hassle-free.',
         subdesc:
@@ -318,7 +318,7 @@ export const myProjects = [
                 path: '/assets/docker.svg',
             },
         ],
-    },
+    },*/
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
