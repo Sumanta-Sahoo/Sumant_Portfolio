@@ -70,6 +70,12 @@ const Hero = () => {
                     </Suspense>
                 </Canvas>
             </div> */}
+            <div className="floating-icons">
+                <img src="/icons/code.png" className="floating1" />
+                <img src="/icons/react.png" className="floating2" />
+                <img src="/icons/java.png" className="floating3" />
+                <img src="/icons/database.png" className="floating4" />
+            </div>
             <div className="realtive top-7 left-0 right-0 w-full z-10 c-space">
                 <a href="https://drive.google.com/file/d/1BAJOZCed6ZvMXYC-QPzg7dzHXalVhPRl/view?usp=sharing" className="w-fit" target='blank'>
                     <Button name="View Resume" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />

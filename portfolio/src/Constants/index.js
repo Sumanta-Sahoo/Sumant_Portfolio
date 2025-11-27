@@ -109,6 +109,58 @@ export const myProjects = [
             },
         ],
     },
+    {
+        title: 'Schedulrr - An Appointment Management',
+        desc: 'Schedulrr is a scheduling platform offering secure, role-based workflows, easy search with filters, event management, admin tools, feedback control, availability tools, calendar integration, multilingual support, and mobile-ready design for seamless experience.',
+        subdesc:
+            'It uses a powerful tech stack, featuring Java and Spring Boot for backend services, ReactJS for frontend, MySQL for database, AWS S3 for cloud storage, Docker for deployment, and GitHub for collaboration.',
+        href: '#',
+        texture: '/textures/project/sgout.png',
+        logo: '/assets/project-logo1.png',
+        logoStyle: {
+            backgroundColor: '#2A1816',
+            border: '0.2px solid #36201D',
+            boxShadow: '0px 0px 60px 0px #AA3C304D',
+        },
+        spotlight: '/assets/spotlight1.png',
+        tags: [
+            {
+                id: 1,
+                name: 'Java',
+                path: '/assets/java.svg',
+            },
+            {
+                id: 2,
+                name: 'SpringBoot',
+                path: 'assets/spring.svg',
+            },
+            {
+                id: 3,
+                name: 'AWS',
+                path: '/assets/aws.svg',
+            },
+            {
+                id: 4,
+                name: 'MySql',
+                path: '/assets/sql.svg',
+            },
+            {
+                id: 5,
+                name: 'Framer Motion',
+                path: '/assets/framer.png',
+            },
+            {
+                id: 6,
+                name: 'React.js',
+                path: '/assets/react.svg',
+            },
+            {
+                id: 7,
+                name: 'Docker',
+                path: '/assets/docker.svg',
+            },
+        ],
+    },
     /*{
         title: 'NextBuy - Ecommerce Platform',
         desc: 'NextBuy is a dynamic eCommerce platform that transforms the online shopping experience. Offering seamless navigation and personalized recommendations, it supports millions of customers globally, ensuring every purchase is quick, secure, and hassle-free.',
