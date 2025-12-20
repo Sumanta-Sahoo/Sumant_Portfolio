@@ -77,7 +77,7 @@ const Hero = () => {
                 <img src="/icons/database.png" className="floating4" />
             </div>
             <div className="realtive top-7 left-0 right-0 w-full z-10 c-space">
-                <a href="https://drive.google.com/file/d/1KsANk2qgbwaY32RGnjuB4VZ-kbso5X9Z/view?usp=sharing" className="w-fit" target='blank'>
+                <a href="https://drive.google.com/file/d/1sAIkICu1d2thAD3bbb7TzelS0bMaSFPI/view?usp=sharing" className="w-fit" target='blank'>
                     <Button name="View Resume" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
                 </a>
             </div>
